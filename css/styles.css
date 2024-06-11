@@ -1,0 +1,109 @@
+body {
+    background-color:#161d2b;
+    color:#f9fafe ;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 21px;
+    padding: 0; 
+    margin: 2em;    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav li {
+    padding: 14px;
+}
+
+nav a {
+    color: #f9fafe;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff0048;
+}
+
+main {
+    font-weight: 300;
+}
+
+main h2 {
+    font-weight: 300;
+}
+
+a {
+    color: #de0d48;
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+a:hover {
+    color: #ff0033;
+}
+
+img {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    max-width: 40em;
+}
+
+a svg {
+    max-width: 60px;
+    transition: fill 0.3s ease;
+}
+
+a svg:hover {
+    fill: #de0d48;
+}
+
+#name {
+    color: #de0d48;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+#nameletter {
+    font-size: 90px;
+}
+
+#projects {
+    display: flex; 
+    justify-content: space-between; 
+    width: 14.5em; 
+    font-size: 72px;
+}
+
+#projects p {
+    font-size: 36px;
+    width: 490px;
+}
+
+#projects a {
+    color: #f9fafe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#projects a:hover {
+    color: #de0d48;
+}
+
+.raspberry {
+    color: #de0d48;
+}

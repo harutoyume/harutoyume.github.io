@@ -107,3 +107,46 @@ a svg:hover {
 .raspberry {
     color: #de0d48;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #f9fafe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #de0d48;
+}
+
+#comic {
+    display: flex;
+    margin-top: 50px;
+}
+
+#comic-description {
+    margin-left: 20px;
+}
+
+#comic-details {
+    margin-top: 250px;
+}
+
+#comic-img {
+    width: 500px;
+    margin: 0;
+}
+
+#comic-title {
+    margin: 0;
+    padding: 0;
+}
+
+#comic-date {
+    margin: 0;
+    padding: 0;
+    color: #de0d48;
+}
